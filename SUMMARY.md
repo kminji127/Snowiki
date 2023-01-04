@@ -21,6 +21,8 @@
   * [1. Variable](language/dart/1-variable.md)
   * [2. Operator](language/dart/2-operator.md)
   * [3. List, Map, Set](language/dart/3-list-map-set.md)
+  * [4. Statement](language/dart/4-statement.md)
+  * [5. Function](language/dart/5-function.md)
 * [Java](language/java/README.md)
   * [Chapter 1](language/java/chapter-1.md)
   * [Chapter 2](language/java/chapter-2.md)
@@ -40,7 +42,6 @@
   * [Object](language/javascript/object.md)
   * [Class](language/javascript/class.md)
 * [Python](language/python.md)
-* [C++](language/c++.md)
 
 ## Book
 
