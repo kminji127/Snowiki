@@ -26,6 +26,7 @@
   * [6. OOP](language/dart/6-oop.md)
   * [7. Functional Programming](language/dart/7-functional-programming.md)
   * [8. Async Programming](language/dart/8-async-programming.md)
+  * [9. Flutter](language/dart/9-flutter.md)
 * [Java](language/java/README.md)
   * [Chapter 1](language/java/chapter-1.md)
   * [Chapter 2](language/java/chapter-2.md)
