@@ -52,7 +52,7 @@ description: Java 언어
 
 ### 2.3. Java에서의 데이터 타입
 
-* **기본 타입**: 실제 값을 변수에 저장 <mark style="background-color:orange;">**(Stack 영역에 생성)**</mark>
+* **기본 타입(Primitive Type)**: 실제 값을 변수에 저장 <mark style="background-color:orange;">**(Stack 영역에 생성)**</mark>
   * Boolean: 논리형 (True / False)&#x20;
   * Numeric: 숫자형&#x20;
   * Integer : 정수형&#x20;
@@ -66,7 +66,7 @@ description: Java 언어
     * double: 64비트 실수
 * **참조 타입(Reference Type)**: 객체의 번지를 참조하는 타입 <mark style="background-color:orange;">**(Heap 영역에 생성)**</mark>
   * 클래스(Class): 연관되어 있는 변수와 메소드의 집합&#x20;
-  * 인터페이스(Interface): 클래스와 같은 개념&#x20;
+  * 인터페이스(Interface): 클래스가 구현해야 하는 동작을 선언하는 데 사용되는 추상 자료형&#x20;
   * Array(Matrix): 배열
 
 ### 2.4. 참조 타입 (Reference Type)
