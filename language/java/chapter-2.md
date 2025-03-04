@@ -53,21 +53,33 @@ description: Java 언어
 ### 2.3. Java에서의 데이터 타입
 
 * **기본 타입(Primitive Type)**: 실제 값을 변수에 저장 <mark style="background-color:orange;">**(Stack 영역에 생성)**</mark>
-  * Boolean: 논리형 (True / False)&#x20;
-  * Numeric: 숫자형&#x20;
-  * Integer : 정수형&#x20;
-    * byte: 8비트&#x20;
-    * char: 문자형 (아스키 코드를 사용하여 표현)&#x20;
-    * short: 16비트 정수&#x20;
-    * int: 32비트 정수&#x20;
-    * long: 32비트 정수&#x20;
-  * Floating: 부동 소수점형(실수)&#x20;
+  * boolean: 논리형 (true / false)&#x20;
+  * char: 16비트 유니코드 문자형 (&#x20;
+  * 정수형&#x20;
+    * byte: 8비트 정수(-128 ~ 127)&#x20;
+    * short: 16비트 정수(-32,768 ~ 32,767)&#x20;
+    * int: 32비트 정수(-2^31 ~ 2^31-1)&#x20;
+    * long: 64비트 정수(-2^64 ~ 2^64-1)&#x20;
+  * 부동 소수점형(실수)&#x20;
     * float: 32비트 실수&#x20;
     * double: 64비트 실수
 * **참조 타입(Reference Type)**: 객체의 번지를 참조하는 타입 <mark style="background-color:orange;">**(Heap 영역에 생성)**</mark>
   * 클래스(Class): 연관되어 있는 변수와 메소드의 집합&#x20;
   * 인터페이스(Interface): 클래스가 구현해야 하는 동작을 선언하는 데 사용되는 추상 자료형&#x20;
   * Array(Matrix): 배열
+
+#### 💡`TIL`💡 변수 타입에 따른 기본값
+자바에서 선언되었지만 초기화되지 않은 필드는 컴파일러에 의해 적절한 기본값으로 설정된다. (지역 변수 제외)
+
+|데이터 타입|기본값|
+|--|--|
+|byte, short, int|0|
+|long|0L|
+|float|0.0f|
+|double|0.0d|
+|char|'\u0000'|
+|boolean|false|
+|참조 타입|null|
 
 ### 2.4. 참조 타입 (Reference Type)
 
