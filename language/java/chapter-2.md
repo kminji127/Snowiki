@@ -54,7 +54,7 @@ description: Java 언어
 
 * **기본 타입(Primitive Type)**: 실제 값을 변수에 저장 <mark style="background-color:orange;">**(Stack 영역에 생성)**</mark>
   * boolean: 논리형 (true / false)&#x20;
-  * char: 16비트 유니코드 문자형 (&#x20;
+  * char: 16비트 유니코드 문자형&#x20;
   * 정수형&#x20;
     * byte: 8비트 정수(-128 ~ 127)&#x20;
     * short: 16비트 정수(-32,768 ~ 32,767)&#x20;
